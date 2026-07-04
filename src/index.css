@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+/* Custom Buttons */
+.neon-btn {
+  position: relative;
+  background-color: #ff5f1f;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.75rem 1.75rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 20px rgba(255, 95, 31, 0.3);
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.neon-btn:hover {
+  background-color: #ff783d;
+  box-shadow: 0 0 30px rgba(255, 95, 31, 0.65);
+  transform: translateY(-1px);
+}
+
+.neon-btn:active {
+  transform: translateY(1px);
+}
+
+.orange-text-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ff5f1f;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.orange-text-btn:hover {
+  color: #ff783d;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.pause-on-hover:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+/* Reverse Marquee Animation */
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-33.3333%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  animation: marquee-reverse 30s linear infinite;
+}
+
+.pause-on-hover:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
