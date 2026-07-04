@@ -6,15 +6,18 @@ const brandLogos = [
   {
     name: "Google",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
-        <path d="M12.24 10.285V13.4h6.86c-.277 1.56-1.602 4.585-6.86 4.585-4.54 0-8.24-3.76-8.24-8.4s3.7-8.4 8.24-8.4c2.58 0 4.307 1.095 5.298 2.045l2.465-2.37C18.575 1.5 15.69 0 12.24 0 5.58 0 0 5.37 0 12s5.58 12 12.24 12c6.96 0 11.57-4.89 11.57-11.79 0-.795-.085-1.4-.19-1.925H12.24z"/>
+      <svg viewBox="0 0 24 24" className="w-4 h-4">
+        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
       </svg>
     )
   },
   {
     name: "Hostinger",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 stroke-current" fill="none" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="#673de6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="2" width="20" height="8" rx="2" />
         <rect x="2" y="14" width="20" height="8" rx="2" />
         <line x1="6" y1="6" x2="6.01" y2="6" />
@@ -25,7 +28,7 @@ const brandLogos = [
   {
     name: "Vercel",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#000000">
         <path d="M24 22.525H0L12 1.475L24 22.525Z"/>
       </svg>
     )
@@ -33,7 +36,7 @@ const brandLogos = [
   {
     name: "Render",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 stroke-current" fill="none" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="#46e3b7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" />
         <polyline points="8 6 2 12 8 18" />
       </svg>
@@ -42,7 +45,7 @@ const brandLogos = [
   {
     name: "Railway",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#f43f5e">
         <path d="M4 18h16v2H4zm0-14h16v2H4zm5 4h6v2H9zm0 4h6v2H9z" />
       </svg>
     )
@@ -50,7 +53,7 @@ const brandLogos = [
   {
     name: "Netlify",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#00ad9f">
         <path d="M12 2L2 9.5l10 7.5 10-7.5L12 2zm0 13l-6-4.5L12 6l6 4.5-6 4.5z"/>
       </svg>
     )
@@ -58,7 +61,7 @@ const brandLogos = [
   {
     name: "InfinityFree",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#3b82f6">
         <path d="M7 7a5 5 0 0 0-3.5 8.5 5 5 0 0 0 7 0L12 14l1.5 1.5a5 5 0 0 0 7 0 5 5 0 0 0 0-7 5 5 0 0 0-7 0L12 10l-1.5-1.5A5 5 0 0 0 7 7zm0 2a3 3 0 0 1 2.1.9l2.4 2.4-2.4 2.4A3 3 0 0 1 7 15a3 3 0 0 1-2.1-.9 3 3 0 0 1 0-4.2A3 3 0 0 1 7 9zm10 0a3 3 0 0 1 2.1.9 3 3 0 0 1 0 4.2 3 3 0 0 1-4.2 0l-2.4-2.4 2.4-2.4A3 3 0 0 1 17 9z"/>
       </svg>
     )
@@ -66,7 +69,7 @@ const brandLogos = [
   {
     name: "Web3Forms",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 stroke-current" fill="none" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="#ff5f1f" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
         <polyline points="22,6 12,13 2,6" />
       </svg>
@@ -75,7 +78,7 @@ const brandLogos = [
   {
     name: "GoDaddy",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 stroke-current" fill="none" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="#00a6a0" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
         <circle cx="9" cy="7" r="4" />
         <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
@@ -86,7 +89,7 @@ const brandLogos = [
   {
     name: "Framer",
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#000000">
         <path d="M5 2h14l-7 7H5zm7 9h7v6h-7zm-7 6h14v6H5z"/>
       </svg>
     )
@@ -283,11 +286,11 @@ export default function Hero() {
       >
         <div className="flex w-max gap-16 animate-marquee">
           {[...brandLogos, ...brandLogos, ...brandLogos].map((brand, idx) => (
-            <div key={idx} className="flex items-center gap-2.5 cursor-pointer opacity-40 hover:opacity-85 transition-opacity duration-300">
-              <div className="w-8 h-8 rounded-[10px] bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-800 flex-shrink-0">
+            <div key={idx} className="group flex items-center gap-2.5 cursor-pointer opacity-50 hover:opacity-100 transition-opacity duration-300">
+              <div className="w-8 h-8 rounded-[10px] bg-slate-50 border border-slate-100 flex items-center justify-center flex-shrink-0 transition-all duration-300 filter grayscale group-hover:grayscale-0">
                 {brand.icon}
               </div>
-              <span className="text-xs font-black text-slate-900 tracking-wider uppercase">
+              <span className="text-[10px] font-black text-slate-500 group-hover:text-slate-900 tracking-wider uppercase transition-colors duration-300">
                 {brand.name}
               </span>
             </div>
